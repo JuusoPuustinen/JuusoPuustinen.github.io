@@ -1,14 +1,7 @@
-body {
-    margin-left: 40px;
-    background-color: #ffffff;
-    background-image: url("../kuvat/taustakuva7.png");
-    background-size: cover;
-    image-rendering: auto;
-    text-align: center;
-}
-
 ul {
-    background-color: white;
+	background-color: white;
+	background-image: url(https://i.pinimg.com/originals/88/15/63/881563d6444b370fa4ceea0c3183bb4c.gif);
+	animation: infinite 220s;
     width: 150px;
     border: 2px solid blue;
     padding: 50px;
@@ -16,9 +9,52 @@ ul {
     margin-top: 30px;
     text-align: center;
     color: black;
+    font-size: 20px;
 }
 
-h1 {
-    color: purple;
-    font-size: 50px;
+
+@import url('https://fonts.googleapis.com/css?family=Coiny');
+
+
+body {
+	background: #ffffff;
+	margin-left: 40px;
+    background-color: #ffffff;
+    background-image: url("../kuvat/taustakuva7.png");
+    background-size: cover;
+    image-rendering: auto;
+    text-align: center;
+}
+.animoitutexti {
+	font-family: 'Coiny', cursive;
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;	
+	background-image: url(https://i.pinimg.com/originals/ce/2b/78/ce2b78a05838ef311c0868bb2fca0494.gif);
+	background-size: auto;
+	background-attachment: unset;
+	background-position: 0%;
+	width: 80%;
+	margin: 10%;
+	font-size: 134px;
+	animation: infinite 220s;
+	animation-fill-mode: forwards;
+	animation-play-state: running;
+	animation-timing-function: linear;
+	text-align: center;
+}
+@keyframes clouds-moving {
+	0% {
+		background-position: 0%;	
+	}
+	50% {
+		background-position: 100%;	
+	}
+	100% {
+		background-position: 0%;
+	}
+}
+.attribute {
+	position: relative;
+	font-size: 26px;
+	text-align: center;
 }
