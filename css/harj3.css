@@ -12,3 +12,17 @@ h1 {
     position: relative;
     color: #464646;
 }
+
+img {
+    width: 220px;
+    outline: 2px solid blue;
+    padding: 20px;
+}
+
+.internet {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin-left: 712px;
+    background-color: white;
+}
