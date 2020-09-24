@@ -3,15 +3,19 @@
     <head>
         <title>Demo 2</title>
         <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./css/demo4.css">
     </head>
 <body>
+    <button onclick="topFunction()" id="top" title="go to top">Top</button>
     <ul>
         <li><a href="#kalatori">Kalatori</a></li>
         <li><a href="#markkinat">Markkinat</a></li>
         <li><a href="#hinnasto">Hinnasto</a></li>
-        <li></li><a href="#yhteys">Ota yhteyttä</a></li>
-        <li>Sijainti</li>
+        <li><a href="#yhteys">Ota yhteyttä</a></li>
+        <li><a href="#sijainti">Sijainti</a></li>
     </ul>
+    <section id="kalatoris">
     <a name = "kalatori"><h1>Kalatori</h1></a>
     <img src="kuvat/kala.jpg" alt="kala"><br>
     Jem sahagunin kuva
@@ -20,7 +24,9 @@
         Se sijaitsee ihanteellisessa paikassa aivan vanhan Pirkkalankylän  keskustassa. <br>
         Torilla pidetään <mark>markkinapäiviä</mark> ja olemme saaneet torille vakituisen asiakaskunnan.<br>
         Julkinen liikenne suosii toria, sijainti on nimen mukaisesti kalasataman vieressä ja linja-autopysäkki on 50 metrin päässä.<br>
-        
+     </section>
+     
+     <section id="markkinat">
         <h3><a name="markkinat">Vuoden 2020 markkinat</a></h3> <br>
         <ul>
             <li><del>Kevätmarkkinat</del> lauantai 11.4. klo 7–16<br></li>
@@ -32,7 +38,9 @@
         <img src ="./kuvat/mustekala.jpg" alt = "mustekala">
         <img src="kuvat/pienikala.jpg" alt = "pienikala">
         <img src="kuvat/rapu.jpg" alt ="rapu">
+        </section>
 
+        <section name="hinnasto">
         <h3><a name="hinnasto">Hinnasto</a></h3>
         <img src="kuvat/tori.jpg" alt="tori">
         <table>
@@ -117,7 +125,9 @@
                 <td>40</td>
             </tr>
         </table>
+        </section>
 
+        <section id="yhteys">
         <h3><a name="yhteys">Ota yhteyttä</a></h3>
 
         <form action ="http://www.leeniemi.net/sasp20/lomakedemo4.php" method  = "POST">
@@ -139,10 +149,31 @@
             <input type="reset" value="tyhjennä"><br>
             <input type="submit" value="lähetä"><br>
         </form>
+        </section>
 
-
-        <h3>Sijainti</h3>
+        <section name="sijainti">
+        <h3><a name="sijainti">Sijainti</a></h3>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1906.642272083465!2d23.553976816221226!3d61.45316514598496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468ed9fa83d6429f%3A0xb142d41e406c097d!2sKierikantie%2018%2C%2033980%20Pirkkala!5e0!3m2!1sfi!2sfi!4v1598336807358!5m2!1sfi!2sfi" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     <p>&copy;Juuso Puustinen</p>
+    <script>//Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+} </script>
+</section>
 </body>
 </html>
