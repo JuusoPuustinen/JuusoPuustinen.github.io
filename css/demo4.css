@@ -25,6 +25,18 @@ section {
     background-color: pink;
 }
 
+#hinnasto {
+    background-color: turquoise;
+}
+
+#yhteys {
+    background-color: greenyellow;
+}
+
+#sijainti {
+    background-color: honeydew;
+}
+
 #kuvat {
     width: 100%;
     display: flex;
