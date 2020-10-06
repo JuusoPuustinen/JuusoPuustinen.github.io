@@ -3,10 +3,28 @@
     <head>
         <title>Harj 2</title>
         <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../css/harj5.css">
     </head>
 <body>
-    <h1>Ravintola Oulan lounaslista</h1>
+<header id="nav">
+<ul>
+    <li><a href="#maanantai">Maanantai</a></li>
+    <li><a href="#tiistai">Tiistai</a></li>
+    <li><a href="#keskiviikko">Keskiviikko</a></li>
+    <li><a href="#torstai">Torstai</a></li>
+    <li><a href="#perjantai">Perjantai</a></li>
+    <li><a href="#tiedot">Tiedot</a></li>
+    <li><a href="#varaus">Varaus</a></li>
+    <li><a href="#yhteys">Yhteys</a></li>
+</ul>
+</header>
+<div id="otsikkodiv">
+    <h1 id="otsikko">Ravintola Oulan lounaslista</h1>
+</div>
     <h2>Lounaat</h2>
+<section id="lounaslista">
+    <div id="maanantai">
         <h4>Maanantai</h4>
         <li>
             Juusto-vihanneskeittoa ja kokin sämpylä
@@ -15,6 +33,8 @@
         </li>
         <p>&nbsp;</p>
         <img src="../kuvat/paistettulohi.jpg" alt="paistettu lohi">
+    </div>
+    <div id="tiistai">
         <h4>Tiistai</h4>
         <li>
             Kana-fetajustosalaattia ja kokin sämpylä
@@ -23,14 +43,18 @@
         </li>
         <p>&nbsp;</p>
         <img src="../kuvat/kampela.jpg" alt="kampela">
+    </div>
+    <div id="keskiviikko">
         <h4>Keskiviikko</h4>
         <li>
-             Tomaatti-yrttikeittoa ja kokin sämpylä
+            Tomaatti-yrttikeittoa ja kokin sämpylä
             Kalkkunaleikettä, BBQ-kastiketta, riisiä ja kasviksia
             Omenapiirakkaa ja vaniljakastiketta
         </li>
         <p>&nbsp;</p>
         <img src="../kuvat/kalkkuna.jpg" alt="kalkkuna">
+    </div>
+    <div id="torstai">
         <h4>Torstai</h4>
         <li>
             Rapukeittoa ja kokin sämpylä
@@ -39,7 +63,9 @@
         </li>
         <p>&nbsp;</p>
         <img src="../kuvat/poro.jpg" alt="poro">
-        <h4>Torstai</h4>
+    </div>
+    <div id="perjantai">
+        <h4>Perjantai</h4>
         <li>
             Savulohisalaatti ja kokin sämpylä
             Naudan paahtopaistia, punaviinikastiketta, kermaperunat ja kasviksia
@@ -47,8 +73,10 @@
         </li>
         <p>&nbsp;</p>
         <img src="../kuvat/nauta.jpg" alt="nauta">
+    </div>
     </ul>
-    
+</section>
+<section id="tiedot">
     <h4>Hinta</h4>
     <p>Lounaan hinta on 11 euroa, sisältää ruokajuoman - vesi, kotikalja, maito</p>
     <h4>Aukioloajat</h4>
@@ -62,6 +90,29 @@
             <td>11:00-15:00</td>
         </tr>
     </table>
+<section id="varaus">
+    <h3><a id="varaa">Varaa pöytä</a></h3>
+    
+    <form>
+        
+        nimimerkki <br>
+        <input type="text" name="nimi" required placeholder="Voit käyttää omaa nimeäsi tai nimimerkkiä"><br>
+
+        Sähköposti<br>
+        <input type="email" name="email" required><br>
+
+        Päiväys<br>
+        <input type="date" name="pvm"><br>
+
+        pöytä<br>
+        <textarea rows="6" cols="50">
+                
+        </textarea>
+        <br>
+        <input type="reset" value="tyhjennä"><br>
+        <input type="submit" value="lähetä"><br>
+    </form>
+</section id="yhteys">
     <h4>Yhteystiedot</h4>
     <address>
         Ravintola Oula
@@ -72,5 +123,6 @@
         Fax (016) 555 4756 <br>
         E-Mail: ravintola.oula@oulanet.fi <br>
     </address>
+</section>
 </body>
 </html>

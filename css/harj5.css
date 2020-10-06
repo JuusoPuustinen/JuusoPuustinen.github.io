@@ -1,0 +1,85 @@
+header {
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    text-align: center;
+}
+
+body{
+    margin: auto;
+}
+
+img {
+    display: flex;
+}
+
+#lounaslista {
+    background-color: rgba(163, 60, 60, 0.1)
+}
+
+#lounaslista.round{
+    border-radius: 50%;
+}
+
+#otsikkodiv {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 150%;
+}
+#nav {
+    position: fixed;
+    position:absolute;
+    top:10px;
+    right: 10px;
+}
+#nav ul {
+    display: table;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(43, 135, 189, 0.7);
+    position:fixed;
+    top:10px;
+    right: 10px;
+    
+  }
+  
+  #nav li {
+    float: left;
+  }
+  
+  #nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.3vh;
+    text-decoration: none;
+  }
+  
+  #nav li a:hover {
+    background-color: grey;
+  }
+
+ 
+  #nav ul {
+    border: 1px solid #ccc;
+    width: 0.6vh;
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
+#nav li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#nav li:last-child {
+    border-bottom: none;
+}
+
+#nav span {
+    float: right;
+}
+
