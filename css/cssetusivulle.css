@@ -5,13 +5,16 @@ ul {
     width: 150px;
     border: 2px solid blue;
     padding: 50px;
-    margin-left: 43.5%;
     margin-top: 30px;
     text-align: center;
     color: black;
     font-size: 20px;
 }
 
+#nelio {
+	display: flex;
+  	justify-content: center;
+}
 
 @import url('https://fonts.googleapis.com/css?family=Coiny');
 
