@@ -6,24 +6,40 @@ header {
 
 body{
     margin: auto;
+    background-image: url(../kuvat/kahvilatausta.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 img {
     display: flex;
 }
-
-#lounaslista {
-    background-color: rgba(163, 60, 60, 0.1)
+#lounasotsikko {
+    text-align: center;
+    font-size: 300%
 }
 
-#lounaslista.round{
-    border-radius: 50%;
+#lounaslista {
+    background-color: rgba(255, 255, 255, 0.4);
+    list-style-type: square;
 }
 
 #otsikkodiv {
     font-family: 'Permanent Marker', cursive;
     font-size: 150%;
 }
+
+#varaus{
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 50px;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
 #nav {
     position: fixed;
     position:absolute;
@@ -36,7 +52,7 @@ img {
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(43, 135, 189, 0.7);
+    background-color: rgba(43, 135, 189, 0.4);
     position:fixed;
     top:10px;
     right: 10px;
@@ -83,3 +99,41 @@ img {
     float: right;
 }
 
+.center {
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+  }
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+	margin-right: auto;
+ }
+ #aukioloajat th, td {
+    width: 200px;
+    border: 1px solid white;
+    background: white;
+}
+
+#aukioloajat td {
+    text-align: center;
+}
+
+#aukioloajat h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color:white;
+    text-shadow:
+    -1px -1px black,
+    1px -1px black,
+    -1px 1px black,
+    1px 1px black;  
+}
+
+#aukioloajat table{
+    background: black;
+    margin: auto;
+    border: 1px solid black;
+}

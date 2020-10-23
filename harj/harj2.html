@@ -19,67 +19,68 @@
     <li><a href="#yhteys">Yhteys</a></li>
 </ul>
 </header>
-<div id="otsikkodiv">
+<div id="otsikkodiv" class="center">
     <h1 id="otsikko">Ravintola Oulan lounaslista</h1>
 </div>
-    <h2>Lounaat</h2>
-<section id="lounaslista">
+    <h2 id="lounasotsikko">Lounaat</h2>
+<section id="lounaslista" class="center">
     <div id="maanantai">
-        <h4>Maanantai</h4>
+        <h3>Maanantai</h3>
         <li>
             Juusto-vihanneskeittoa ja kokin sämpylä
             Paistettua lohta, sinappikastiketta, tilliperunoita ja kasviksia
             Marjakiisseliä ja hunajakermavaahtoa
         </li>
         <p>&nbsp;</p>
-        <img src="../kuvat/paistettulohi.jpg" alt="paistettu lohi">
+        <img class="displayed" src="../kuvat/paistettulohi.jpg" alt="paistettu lohi">
     </div>
     <div id="tiistai">
-        <h4>Tiistai</h4>
+        <h3>Tiistai</h3>
         <li>
             Kana-fetajustosalaattia ja kokin sämpylä
             Paistettua punakampelaa, pinaattikastiketta ja perunamuusia
             Pannukakkua, mansikkahilloa ja kermavaahtoa
         </li>
         <p>&nbsp;</p>
-        <img src="../kuvat/kampela.jpg" alt="kampela">
+        <img class="displayed" src="../kuvat/kampela.jpg" alt="kampela">
     </div>
     <div id="keskiviikko">
-        <h4>Keskiviikko</h4>
+        <h3>Keskiviikko</h3>
         <li>
             Tomaatti-yrttikeittoa ja kokin sämpylä
             Kalkkunaleikettä, BBQ-kastiketta, riisiä ja kasviksia
             Omenapiirakkaa ja vaniljakastiketta
         </li>
         <p>&nbsp;</p>
-        <img src="../kuvat/kalkkuna.jpg" alt="kalkkuna">
+        <img class="displayed" src="../kuvat/kalkkuna.jpg" alt="kalkkuna">
     </div>
     <div id="torstai">
-        <h4>Torstai</h4>
+        <h3>Torstai</h3>
         <li>
             Rapukeittoa ja kokin sämpylä
             Poronkäristystä, perunamuusia, puolukkahilloa ja suolakurkkuja
             Hedelmäsalaattia ja kinuskikastiketta
         </li>
         <p>&nbsp;</p>
-        <img src="../kuvat/poro.jpg" alt="poro">
+        <img class="displayed" src="../kuvat/poro.jpg" alt="poro">
     </div>
     <div id="perjantai">
-        <h4>Perjantai</h4>
+        <h3>Perjantai</h3>
         <li>
             Savulohisalaatti ja kokin sämpylä
             Naudan paahtopaistia, punaviinikastiketta, kermaperunat ja kasviksia
             Suklaamousse
         </li>
         <p>&nbsp;</p>
-        <img src="../kuvat/nauta.jpg" alt="nauta">
+        <img class="displayed" src="../kuvat/nauta.jpg" alt="nauta">
     </div>
     </ul>
 </section>
-<section id="tiedot">
+<section id="tiedot" class="center" >
     <h4>Hinta</h4>
     <p>Lounaan hinta on 11 euroa, sisältää ruokajuoman - vesi, kotikalja, maito</p>
     <h4>Aukioloajat</h4>
+    <div id="aukioloajat">
     <table> 
         <tr>
             <th>ma-pe</th>
@@ -90,7 +91,8 @@
             <td>11:00-15:00</td>
         </tr>
     </table>
-<section id="varaus">
+    </div>
+<div id="varaus">
     <h3><a id="varaa">Varaa pöytä</a></h3>
     
     <form>
@@ -105,14 +107,15 @@
         <input type="date" name="pvm"><br>
 
         pöytä<br>
-        <textarea rows="6" cols="50">
+        <textarea rows="6" cols="25">
                 
         </textarea>
         <br>
         <input type="reset" value="tyhjennä"><br>
         <input type="submit" value="lähetä"><br>
     </form>
-</section id="yhteys">
+</div>
+<div>
     <h4>Yhteystiedot</h4>
     <address>
         Ravintola Oula
@@ -123,6 +126,7 @@
         Fax (016) 555 4756 <br>
         E-Mail: ravintola.oula@oulanet.fi <br>
     </address>
+</div>
 </section>
 </body>
 </html>
