@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+    color: red;
+    text-align: center;
+}
+
+#containerp {
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    height: 100px;
+    width: 100px;
+}
+p {
+    font-size: 400px;
+}
+
+.container {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.button {
+    background-color: red;
+    border: none;
+    color: #000000;
+    padding: 25px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: fixed;
+}
+
+ul {
+    list-style: none;
+    margin:0px;
+    padding:0px;
+    font-size:40px;
+}
+
+#minilistadiv {
+    width: 1300px;
+}
+
+li
+{
+   display:block;
+   float:left;
+   width:100px; 
+   height:100px; 
+   padding: 5px; 
+}
+
+.topcorner{
+   position:absolute;
+   top:0;
+   right:0;
+  }
