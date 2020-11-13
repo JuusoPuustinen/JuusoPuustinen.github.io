@@ -40,10 +40,9 @@ footer {
 .kuva{
     display: none;
 }
-@media all and (min-width: 768px) {
 
-}
-@media all and (min-width: 1000px) {
+
+@media all and (min-width: 768px) {
     .content {
         flex-direction: row;
         flex-wrap: wrap;
@@ -63,7 +62,6 @@ footer {
     .right-sidebar {
         flex: 1;
         order: 3;
-        flex-basis: 100%;
     }
     img {
         max-width: 100%;
