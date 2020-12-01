@@ -13,3 +13,58 @@
     height: 20px;
     overflow: hidden;
 }
+
+#yhteystiedot li {
+    display: block;
+    float: left;
+    
+}
+
+#yhteystiedot ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#navtausta {
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+}
+
+#navoranssi {
+    background-color: lightgrey;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 500px;
+    border-radius: 0px 50px 50px 0px;
+    display: flex;
+}
+
+#logo {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+
+#orantexti {
+    font-size: 100px;
+    color: black;
+}
+
+#tekstidiv {
+    padding-left: 10px;
+    
+}
+#navlinkit {
+    color: black;
+    background-color: black;
+    width: 100%;
+    padding-left: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+}
