@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../kuvat/book-4.jpg);
+    background-size: cover;
+}
+
+header {
+    background: rgb(58, 64, 90);
+    height: 5vh;
+    color: rgb(249, 222, 201);
+    position: fixed;
+    width: 100vw;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#nav p {
+    padding-right: 4vw;
+}
+
+#kirjaudujutu {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 28vw;
+    background-color: rgb(58, 64, 90);
+    width: 35%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: rgb(58, 64, 90);
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    background-color: rgb(58, 64, 90);
+    height: 100%
+}
+
+#tietosuoja {
+    min-width: 400px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.dropbtn img {
+    transform: rotate(90deg);
+}
+
+.dropbtn:hover img {
+    transform: rotate(270deg);
+}
+
+#column1 {
+    padding-left: 20px;
+    width: 50%;
+}
+
+#column2 {
+    
+    width: 50%;
+}
+
+.column a {
+    float: none;
+    color: rgb(249, 222, 201);
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.väriteksti {
+    color: white;
+}
+
+#logokuva {
+    padding-left: 2vw;
+    position: relative;
+    padding-top: 8vh;
+    width: 20vw;
+    height: auto;
+}
+
+footer {
+    background-color: rgba(58, 64, 90, 0.5);
+    height: 25vh;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+footer p {
+    padding-top: 2vh;
+    padding-left: 7vw;
+    font-size: 30px;
+    width: 75vw;
+}
+
+footer h2 {
+    font-size: 50px;
+    padding-left: 7vw;
+    padding-top: 2vh;
+}
+
+
+.container, 
+.content {
+    display: flex;
+    flex-direction: column;
+}
