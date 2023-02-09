@@ -8,3 +8,11 @@ body {
 div {
     text-align: center;
 }
+
+img {
+    border: 3px solid black;
+}
+
+.maindiv {
+    background-color: grey;
+}
