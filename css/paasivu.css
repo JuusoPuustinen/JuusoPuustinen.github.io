@@ -11,8 +11,11 @@ div {
 
 img {
     border: 3px solid black;
+    width: 80%;
 }
 
 .maindiv {
-    background-color: grey;
+    background-color: lightgrey;
+    width: 50%;
+    border-radius: 8px;
 }
